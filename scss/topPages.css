@@ -7,6 +7,9 @@
     content: "";
     display: block;
     height: 1px; }
+  #page-header .home-link {
+    color: #FFFDD8;
+    text-decoration: none; }
 
 .header-background {
   position: absolute;
