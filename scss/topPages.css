@@ -1,0 +1,202 @@
+#page-header {
+  width: 100%;
+  min-height: 100%;
+  background-color: #191000;
+  position: relative; }
+  #page-header:before {
+    content: "";
+    display: block;
+    height: 1px; }
+
+.header-background {
+  position: absolute;
+  max-width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: 0; }
+
+.header-email {
+  letter-spacing: 2px;
+  color: #C0BDAB;
+  font-weight: 700;
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px; }
+
+/* Logo styling starts */
+.logo-panel {
+  position: relative;
+  background-repeat: no-repeat;
+  margin: 45px auto 0 auto; }
+
+.logo-background {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.3;
+  right: 10px;
+  max-width: 150px;
+  top: 0; }
+
+.logo-text {
+  clear: both;
+  color: #FFFDD8;
+  font-family: "perrygothic", serif;
+  font-size: 32px;
+  font-size: 2rem;
+  font-size: 11vw;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  text-align: center; }
+
+.logo-text-school-kathak {
+  color: #C0BDAB;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: right;
+  padding-right: 10px; }
+
+@media only screen and (min-width:40.063em) {
+  .logo-panel {
+    margin-top: 120px;
+    margin-left: 48px;
+    display: inline-block;
+    max-width: none; }
+  .logo-background {
+    left: 0%;
+    -webkit-transform: translate(0%, -30%);
+            transform: translate(0%, -30%);
+    max-width: 540px;
+    width: 38vw;
+    opacity: 0.15; }
+  .logo-text {
+    font-size: 6rem;
+    font-size: 10vw;
+    text-align: left; }
+  .logo-text-school {
+    float: right;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 1.125rem;
+    font-size: 1.75vw;
+    color: #C0BDAB;
+    z-index: 1;
+    position: relative; }
+  .logo-text-kathak {
+    color: #C0BDAB;
+    float: right;
+    font-family: "Lato", sans-serif;
+    font-size: 1.125rem;
+    font-size: 1.75vw;
+    line-height: 1.25;
+    margin-left: 10px;
+    font-weight: 700;
+    text-transform: uppercase; } }
+
+@media only screen and (min-width:64.063em) {
+  .logo-background {
+    left: 5%; } }
+
+/* Logo styling ends */
+/* Main navigation menu starts */
+.main-navigation {
+  list-style: none;
+  margin: 0 0 0 30px;
+  z-index: 1;
+  position: relative;
+  padding: 0; }
+
+.main-navigation-item {
+  letter-spacing: 2px; }
+
+.main-navigation-item-link {
+  border-left: 4px solid #FF4D4D;
+  color: #FFFDD8;
+  display: inline-block;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  margin-top: 36px;
+  text-decoration: none;
+  transition: border-left 0.4s ease-in-out; }
+  .main-navigation-item-link:hover {
+    border-left-width: 8px; }
+
+.main-navigation-title {
+  font-weight: 700;
+  font-size: 1.5rem; }
+
+.main-navigation-text {
+  color: #C0BDAB; }
+
+@media only screen and (min-width:40.063em) {
+  .main-navigation {
+    margin: 0 0 0 105px; } }
+
+/* Main navigation menu ends */
+/* Second navigation menu starts */
+.second-navigation {
+  list-style: none;
+  margin: 24px 0 0 15px;
+  padding: 0 0 24px 0;
+  position: relative;
+  z-index: 1; }
+
+.second-navigation-item {
+  float: left;
+  margin-right: 24px; }
+
+.second-navigation-link {
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #FFFDD8; }
+
+@media only screen and (min-width:40.063em) {
+  .second-navigation {
+    margin: 24px 0 0 36px;
+    padding: 0 0 48px 0; } }
+
+/* Second navigation menu ends */
+#page-footer {
+  margin-top: 30px;
+  background-color: #191000;
+  color: #FFFDD8;
+  padding-top: 30px; }
+  #page-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  #page-footer a {
+    color: #FFFDD8; }
+  #page-footer .vcard {
+    border: none; }
+
+.footer-menu .footer-menu-item {
+  padding: 0 0 30px;
+  margin: 0; }
+
+.footer-icons {
+  display: block;
+  fill: none;
+  float: left;
+  height: 30px;
+  margin-right: 10px;
+  stroke: #FFFDD8;
+  width: 30px; }
+
+.icon-facebook {
+  stroke-width: 5px; }
+
+.icon-twitter {
+  stroke-width: 25px; }
+
+.footer-logo {
+  max-width: 240px; }
+
+.footer-logo-text {
+  font-family: "perrygothic", serif;
+  font-size: 2rem; }
+
+/*# sourceMappingURL=./topPages.css.map */
